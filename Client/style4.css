@@ -1,0 +1,197 @@
+* {
+    overflow-x: hidden;
+  }
+  
+  @font-face {
+    font-family: OpenSans;
+    src: url(OpenSans-Regular);
+  }
+  
+  table
+  {
+    font-family: cursive;
+    padding: 20px;
+    caption-side: bottom;
+    color: black;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  
+  th,td{
+    padding: 20px;
+    caption-side: bottom;
+    color: black;
+    text-align: right;
+    letter-spacing: 1px;
+    border:1px;
+    border-color:black;
+  }
+  
+  @media screen and (max-width: 877px) {
+   .prijavaDiv{
+       flex-direction: column;
+       align-items: center;
+       background-color:lightgreen;
+   }
+  }
+  
+  .hed
+  {
+    align-items:center;
+  }
+  
+  .h2{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    position: center;
+  }
+
+  .prijavaDiv,.zaposleniDiv, .gostDiv{
+    display: flex;
+    gap:30px;
+    padding: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border:3px;
+    border-color: black;
+    background-color: lightgreen;
+  }
+  
+  .kDiv{
+    display: flex;
+    flex-direction: column;
+    gap:5px
+
+  }
+  
+  button{
+    margin: auto;
+    display: block;
+    width: 50px;
+    background-color: white;
+    height: 1cm;
+    margin-bottom: 0.3cm;
+    border-radius: 30px 30px 30px 30px;
+    border: 1px solid black ;
+    box-shadow: 1px 1px 1px;
+    cursor: pointer;
+    align-items:center;
+  }
+  
+  input,select{
+    border-radius: 300px;
+  }
+  
+  body{
+    background-color: rgb(211, 211, 211);
+    background-image: url("one-continuous-line-drawing-hotel-buildings-towers-skyline-landmark-in-single-line-isolated-on-white-background-vector.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  
+  .plata{
+    width: 200px;;
+  }
+  
+  .zaposleniDiv{
+    background-color: lightgreen;
+    width: 100%;
+  }
+  
+  .kZaposleni, .kGost{
+    width:300;
+  }
+  
+  .kDiv button{
+    height:27px
+  }
+  
+  .gostDiv{
+    background-color: lightgreen;
+    width: 100%;
+  }
+  
+  .okvirTabeleZap{
+    padding-right: 30px;
+  }
+  
+  .dgm
+  {
+    margin:0 auto;
+    display: block;
+    width: 150px;
+    background-color: black;
+    height: 1cm;
+    margin-bottom: 0.3cm;
+    border-radius: 30px 30px 30px 30px;
+    border: 2px solid rgba(192,210,231,1);
+    box-shadow: 5px 5px 5px;
+    cursor: pointer;
+    color:white;
+  }
+  .hed{
+    
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    color:black;
+  }
+  .hed2{
+    display:flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      text-align: center;
+      font-size: 40px;
+      width:100%;
+      background-color: lightgreen;
+      color:white
+    
+  }
+  .dugme{
+    text-shadow: gray;
+  }
+  .flex-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 120px;
+    width:100%;
+  }
+  .flex-parents {
+  text-decoration: none;
+  }
+  
+  .nazad{
+      
+    margin: auto;
+    display: block;
+    width: 150px;
+    height: 1cm;
+    background-color: black;
+    margin-bottom: 0.3cm;
+    border-radius: 30px 30px 30px 30px;
+    border: 1px solid black ;
+    box-shadow: 1px 1px 1px;
+    cursor: pointer;
+    align-items:center;
+    color:white;
+  }
+  
+  .tabelaZaposleni
+  {
+    border: 1px;
+    justify-content: flex-end;
+  }
+
+  .input
+  {
+    display:flex;
+    flex-shrink: 14;
+  }
+  
